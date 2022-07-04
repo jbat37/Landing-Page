@@ -91,7 +91,7 @@ footer {
   border-radius: 4px;
   font-size: 16px;
   color: #e5e7eb;
-  background-color: #4779c0;
+  background-image: url(./pics/space-travel-gif.gif);
   border: solid #e5e7eb;
 }
 
@@ -107,10 +107,8 @@ footer {
 }
 /* ROADMAP SECTION*/
 .roadmap {
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 550px;
+  padding-top: 70px;
 }
 
 .roadmap h2 {
@@ -135,10 +133,9 @@ footer {
 }
 
 .roadmap-container {
-  margin-top: -20px;
-  padding: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 
@@ -149,6 +146,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(./pics/space-travel-gif.gif);
+  background-size: 2000px 500px;
+  background-blend-mode: difference;
+  background-repeat: no-repeat;
 }
 
 .quote-container {
@@ -159,13 +160,13 @@ footer {
 .quote-text {
   font-size: 36px;
   font-style: italic;
-  color: #0a0808ad;
+  color: #1f2937b8;
 }
 
 .quote-author {
   text-align: end;
   font-weight: bold;
-  color: #0a0808e3;
+  color: #0a08089b;
   margin-right: 100px;
 }
 
