@@ -83,7 +83,7 @@ footer {
   color: #e5e7eb;
 }
 
-.hero-button {
+#btn {
   max-width: fit-content;
   padding: 10px 22px 10px 22px;
   border: none;
@@ -94,9 +94,9 @@ footer {
   border: solid #e5e7eb;
 }
 
-button:hover {
+#btn:hover {
   background-color: rgb(220, 117, 8);
-  transition: 0.6s ease;
+  transition: 0.2s ease;
 }
 
 .hero-pic img {
@@ -105,7 +105,7 @@ button:hover {
 }
 /* ROADMAP SECTION*/
 .roadmap {
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +148,6 @@ button:hover {
 }
 
 .quote-container {
-  /* border: solid blue; */
   padding: 40px;
   width: 1000px;
 }
@@ -164,4 +163,39 @@ button:hover {
   font-weight: bold;
   color: #0a0808e3;
   margin-right: 100px;
+}
+
+/* SIGN UP SECTION */
+.sign-up {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-container {
+  height: 160px;
+  width: 900px;
+  border-radius: 10px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+}
+
+.sign-up-content {
+  color: #e5e7eb;
+}
+
+.sign-up-content p {
+  margin: 6px;
+}
+
+.sign-up-description-header {
+  font-size: 22px;
+}
+
+.sign-up-description-p {
+  font-size: 14px;
 }
